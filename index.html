@@ -7,9 +7,28 @@
 		<title>Cupcakes!</title>
 	</head>
 	<body>
+		<nav role="navigation">
+			<div class="mobile-menu-toggle">
+				Menu
+			</div>
+			<ul>
+				<li>
+					<a data-scroll href="#why">Why cupcakes</a>
+				</li>
+				<li>
+					<a data-scroll href="#flavors">Cake flavors</a>
+				</li>
+				<li>
+					<a data-scroll href="#frosting">The Art of Frosting</a>
+				</li>
+				<li>
+					<a data-scroll href="#hungry">Hungry yet?</a>
+				</li>
+			</ul>
+		</nav>
 		<header role="banner"></header>
 		<main id="content">
-			<section>
+			<section id="why">
 				<div>
 					<h1>Why cupcakes?</h1>
 					<p>Why not?</p>
@@ -19,7 +38,7 @@
 				</div>
 			</section>
 
-			<section>
+			<section id="flavors">
 				<div>
 					<h2>Cake Flavors</h2>
 					<p>Fruitcake apple pie muffin cookie wafer tootsie roll powder icing. Liquorice lollipop candy canes apple pie wafer. Liquorice jelly beans jujubes candy candy ice cream lemon drops cheesecake. Halvah gummies tart lemon drops gingerbread marzipan macaroon. Donut powder donut lemon drops tootsie roll jelly-o chocolate chocolate bar gummies. Sesame snaps chocolate bar jelly. Pastry apple pie marzipan. Cupcake chocolate cake macaroon carrot cake pudding biscuit halvah cake. Icing apple pie biscuit bear claw cotton candy sesame snaps donut.</p>
@@ -30,7 +49,7 @@
 				</div>
 			</section>
 
-			<section>
+			<section id="frosting">
 				<div>
 					<h2>The Art of Frosting</h2>
 					<p>Chupa chups bear claw icing lollipop cotton candy gummi bears. Icing bonbon lemon drops. Dragée bear claw candy tart liquorice jelly halvah donut chocolate. Cheesecake muffin tootsie roll cotton candy donut chocolate cake chocolate bar macaroon. Lollipop dragée biscuit gummi bears apple pie cookie. Macaroon lemon drops tart danish. Jelly toffee sweet roll brownie macaroon. Pie gingerbread bonbon chocolate bar dessert jelly-o biscuit.</p>
@@ -38,12 +57,14 @@
 				</div>
 			</section>
 
-			<section>
+			<section id="hungry">
 				<div>
 					<h2>Are you hungry yet?</h2>
 					<p>Because I am.</p>
 				</div>
 			</section>
 		</main>
+		<script type="text/javascript" src="js/vendor/smooth-scroll.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
