@@ -27,8 +27,11 @@ This repository contains a basic HTML site with an image and some copy. Your mis
 
 ## The Result
 
-*Insert your fork's documentation or a brief summary of how you completed the challenge here.*
-I was aiming at simplicity here.  I was considering adding in some show-hide functionality that would selectively display the content chosen from the nav, but opted not to do this because sometimes as a user I find it frustrating to have content hidden from me.  I wanted to keep things simple and avoid bringing in large frameworks, CSS or JS.  For that reason I opted for the vanilla-js approach and the one plugin that did not require jQuery to assist in scrolling animation.
+I was aiming at simplicity here.  
+
+I was considering adding in some show-hide functionality that would selectively display the content chosen from the nav, but opted not to do this because sometimes as a user I find it frustrating to have content hidden from me.  
+
+I wanted to keep things simple and avoid bringing in large frameworks, CSS or JS.  For that reason I opted for the vanilla-js approach and the one plugin that did not require jQuery to assist in scrolling animation.
 
 Two things I did not get to that I would have liked to are:
 
@@ -39,5 +42,6 @@ Two things I did not get to that I would have liked to are:
 As for the design choices, I tried my best here, but I am not much of a visual designer, so apologies if some of my choices are not the greatest.
 
 Nav and close images courtesy of https://icomoon.io/
+
 Smooth scroll courtesy of https://github.com/cferdinandi/smooth-scroll
 
