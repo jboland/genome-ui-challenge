@@ -15,7 +15,11 @@ var bindEvents = function() {
 			if (other_active && other_active != this) {
 				other_active.classList.toggle('active');
 			}
-			this.classList.toggle('active');
+			
+			if (!this.classList.contains('active')) {
+				this.classList.toggle('active');
+			}
+
 			if (window.innerWidth < 600) {
 				document.querySelector('.mobile-menu-toggle').classList.toggle('close');
 				document.getElementById('nav-list').classList.toggle('show');
