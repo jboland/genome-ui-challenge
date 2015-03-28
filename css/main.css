@@ -110,4 +110,11 @@ h2 {
     h2 {
       font-size: 3.5em; } }
 
+.large-p {
+  font-size: 2em;
+  text-align: center; }
+  @media (min-width: 600px) {
+    .large-p {
+      font-size: 3em; } }
+
 /*# sourceMappingURL=main.css.map */

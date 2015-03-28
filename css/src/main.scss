@@ -146,3 +146,11 @@ h2 {
 	}
 
 }
+.large-p {
+	font-size: 2em;
+	text-align: center;
+
+	@media (min-width: $medium) {
+		font-size: 3em;
+	}
+}
