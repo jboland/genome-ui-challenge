@@ -17,6 +17,7 @@ var bindEvents = function() {
 			}
 			this.classList.toggle('active');
 			if (window.innerWidth < 600) {
+				document.querySelector('.mobile-menu-toggle').classList.toggle('close');
 				document.getElementById('nav-list').classList.toggle('show');
 			}
 		});
