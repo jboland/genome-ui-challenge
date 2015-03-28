@@ -21,7 +21,7 @@ nav  {
 	z-index: 10;
 	min-height: 70px; // Needs to stretch when nav-list opens
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba($offwhite, 0.6);
 
 
 	.mobile-menu-toggle {
@@ -88,6 +88,15 @@ nav  {
 				display: block;
 				text-decoration: none;
 				text-align: center;
+				color: $darkpink;
+			}
+
+			&.active {
+				background-color: rgba($darkpink, 0.6);
+
+				a {
+					color: $offwhite;
+				}
 			}
 		}
 	}
@@ -131,4 +140,9 @@ h1 {
 
 h2 {
 	font-size: 2.5em;
+
+	@media (min-width: $medium) {
+		font-size: 3.5em;
+	}
+
 }
