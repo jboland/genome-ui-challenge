@@ -4,6 +4,7 @@ var bindEvents = function() {
 	document.querySelector('.mobile-menu-toggle').addEventListener('click', function(event) {
 		event.preventDefault();
 		document.getElementById('nav-list').classList.toggle('show');
+		this.classList.toggle('close'); // toggle icons of mobile icon (.mobile-menu-toggle)
 	});
 
 	var nav_links = document.querySelectorAll('nav ul li');
