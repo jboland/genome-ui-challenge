@@ -18,6 +18,7 @@ nav  {
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 10;
 	min-height: 70px; // Needs to stretch when nav-list opens
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
@@ -95,9 +96,15 @@ nav  {
 
 section {
 	overflow: hidden;
+	position: relative;
 
 	&:nth-child(even) {
 		background: rgba($pink, .5);
+	}
+
+	span.anchor {
+		position: absolute;
+		top: -70px;
 	}
 
 	> div {

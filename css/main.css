@@ -17,6 +17,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
   min-height: 70px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6); }
@@ -74,9 +75,13 @@ nav {
         text-align: center; }
 
 section {
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
   section:nth-child(even) {
     background: rgba(251, 136, 170, 0.5); }
+  section span.anchor {
+    position: absolute;
+    top: -70px; }
   section > div {
     box-sizing: border-box;
     margin: 0 auto;
