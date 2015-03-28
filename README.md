@@ -30,7 +30,8 @@ This repository contains a basic HTML site with an image and some copy. Your mis
 *Insert your fork's documentation or a brief summary of how you completed the challenge here.*
 I was aiming at simplicity here.  I was considering adding in some show-hide functionality that would selectively display the content chosen from the nav, but opted not to do this because sometimes as a user I find it frustrating to have content hidden from me.  I wanted to keep things simple and avoid bringing in large frameworks, CSS or JS.  For that reason I opted for the vanilla-js approach and the one plugin that did not require jQuery to assist in scrolling animation.
 
-Two things I did not get to that I would have liked to are: 
+Two things I did not get to that I would have liked to are:
+
 1. On scroll, I would have liked to implement an active class on the nav items on the desktop as you reach each section.  I know this would have been relatively easy to accomplish if I were using jQuery, but I had opted not to and I did not have the time to figure this out in vanilla JS.
 
 2. I would have liked to better differentiate the final section from the rest.  It was lacking in content, and thus was short in height.  I could flub the height and make it large just by more padding or increased font-size (which I did to an extent).  Doing something like adding more copy or adding in an image would have been helpful here, but based on the rules it seemed better not to mess with the actual content of the site, so I abstained.
