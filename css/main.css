@@ -29,10 +29,10 @@ nav {
     right: 16px;
     top: 14px;
     cursor: pointer;
-    background-image: url("../img/menu.png");
+    background-image: url("../img/menu-pink.png");
     background-repeat: no-repeat; }
     nav .mobile-menu-toggle.close {
-      background-image: url("../img/cross.png"); }
+      background-image: url("../img/cross-pink.png"); }
     @media (min-width: 600px) {
       nav .mobile-menu-toggle {
         display: none; } }
