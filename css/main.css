@@ -20,7 +20,7 @@ nav {
   z-index: 10;
   min-height: 70px;
   width: 100%;
-  background-color: rgba(255, 240, 245, 0.6); }
+  background-color: rgba(255, 240, 245, 0.85); }
   nav .mobile-menu-toggle {
     text-indent: -9999px;
     height: 32px;
@@ -75,7 +75,7 @@ nav {
         text-align: center;
         color: #F13F75; }
       nav ul li.active {
-        background-color: rgba(241, 63, 117, 0.6); }
+        background-color: rgba(241, 63, 117, 0.85); }
         nav ul li.active a {
           color: #FFF0F5; }
 

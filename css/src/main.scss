@@ -21,7 +21,7 @@ nav  {
 	z-index: 10;
 	min-height: 70px; // Needs to stretch when nav-list opens
 	width: 100%;
-	background-color: rgba($offwhite, 0.6);
+	background-color: rgba($offwhite, 0.85);
 
 
 	.mobile-menu-toggle {
@@ -92,7 +92,7 @@ nav  {
 			}
 
 			&.active {
-				background-color: rgba($darkpink, 0.6);
+				background-color: rgba($darkpink, 0.85);
 
 				a {
 					color: $offwhite;
